@@ -131,8 +131,7 @@ contract MyToken is ERC721, ERC721URIStorage, Ownable {
 
 - [ x] TweetID 1489694312900214787
 
-https://ipfs.io/ipfs/bafybeibl2mjhvzusu6eqs6bnpnbzmbw3lv7d6fh4rm5nieawvt53lvpekq/1489694312900214787.png
-![](https://i.imgur.com/Q1SoN0H.png)
+
 
 #### Dependencies
 
