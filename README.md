@@ -52,13 +52,11 @@ About ||![](https://i.imgur.com/VwvfClC.png)
 | -------- | -------- | 
 |   !balance 0x.. |  ![](https://i.imgur.com/BgImh1V.png)
    |!mybalance | ![](https://i.imgur.com/c8KHw8D.png)
-  |
-|  !myNFT| ![](https://i.imgur.com/YNI9W7Z.png)
- | 
+  |  !myNFT| ![](https://i.imgur.com/YNI9W7Z.png)| 
 | !transaction | ![](https://i.imgur.com/dTprpNQ.png)
  |   !price  |![](https://i.imgur.com/UrOYqFB.png)
 | !web3 (link to web3App)| ![](https://i.imgur.com/rKBwY1r.png)
-|
+
  
 ## Example  in the video 
 
