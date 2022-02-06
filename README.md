@@ -1,14 +1,16 @@
 # Tweet@Polygon ![](https://i.imgur.com/8gAClAR.png)
 
 
+
 **Name:** Tweet@Polygon  
-**Description:**  Own any tweet as an NFT @Polygon 
+**Description:**  Own any tweet as an NFT @Polygon display in a Dapp and query in Discord with a BOT
 **Problem**
-Censorship @Twitter
+Censorship @Twitter and integration Web2/Web3 
 **Solution**
-Deploy the tweet @polygon with the URI as the IPFS of the snapshot tweet
+Deploy the tweet @polygon with the URI as the IPFS of the snapshot tweet. Also view transactions and Nft using a Discord BOT.
 
 **Idea:** The main use case is that a user can own the tweets through an ERC721 contract @ Polygon network using TweetID and the uploaded tweet as IPFS as URI. Also, the user will be able to query the available TweetsID and view them through the different APIs provided by the event sponsors. 
+Finally, integrate Web3 Discord Bot to query the @Polygon Network
 
 
 
@@ -18,7 +20,7 @@ Deploy the tweet @polygon with the URI as the IPFS of the snapshot tweet
 
 # Video 
 **Video**
-https://youtu.be/y2GPB7vAi04
+https://youtu.be/6rcqlsskXqo
 
 **Online**
 
@@ -44,7 +46,20 @@ TheGraph | Display a GraphQL Query  |   ![](https://i.imgur.com/uh1i8iG.png)||
 About ||![](https://i.imgur.com/VwvfClC.png)
 | |
 
-
+**Discord BOT**
+![](https://i.imgur.com/gIu3dr7.jpg)
+| Bot Command| Snapshot
+| -------- | -------- | 
+|   !balance 0x.. |  ![](https://i.imgur.com/BgImh1V.png)
+   |!mybalance | ![](https://i.imgur.com/c8KHw8D.png)
+  |
+|  !myNFT| ![](https://i.imgur.com/YNI9W7Z.png)
+ | 
+| !transaction | ![](https://i.imgur.com/dTprpNQ.png)
+ |   !price  |![](https://i.imgur.com/UrOYqFB.png)
+| !web3 (link to web3App)| ![](https://i.imgur.com/rKBwY1r.png)
+|
+ 
 ## Example  in the video 
 
 - *address: * 0xA73721242EeAb1B96B79fd6Cdd5ac7182Ad21cEe
@@ -100,15 +115,20 @@ contract MyToken is ERC721, ERC721URIStorage, Ownable {
 #### Transfers Snapshots
 ![](https://i.imgur.com/kw3QVx3.png)
 
-## Build and run 
+## Build and run Dapp
 
 ```json=
    "start": "webpack serve --mode development",
     "build": "tsc --noEmit && rimraf build && webpack --mode production --progress",
-   
-
+  
 
 ```
+## Build and run Bot
+```json=
+  npm run compile
+  npm run start
+```
+
 #### IPFS files
 
 - [ x] TweetID 1489694312900214787
